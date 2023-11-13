@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    /* background-color: cornflowerblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.container{
+    /* background-color: white; */
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 900px;
+    padding: 20px 150px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 150px;
+  /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.leftcol{
+    background-color: antiquewhite;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 30px;
+    padding: 20px 80px;
+    background: url(weather2.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-radius: 15px;
+    
+}
+.sunlogo{
+    
+    margin-top: 55px;
+}
+.rightcol{
+    
+    /* width: 350px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    padding: 20px 20px;
+}
+.visibility{
+    display: flex;
+    /* background-color: burlywood; */
+    width: 220px;
+    justify-content: space-between;
+    align-items: center;
+}
+.humidityy{
+    display: flex;
+    /* background-color: lightblue; */
+    width: 220px;
+    justify-content: space-between;
+    align-items: center;
+}
+.windspeedd{
+    display: flex;
+    /* background-color: grey; */
+    width: 220px;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    padding: px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-weight: 200px;
+    cursor: pointer;
+}
+
+input{
+    margin-bottom: 10px;
+    width: 200px;
+    border: 1px solid black;
+    padding-left: 4px; 
+    border-radius: 10px;   
+}
